@@ -1,7 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开到荼蘼</title>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <p id="kaidaotumi"></p>
+    <script type="text/javascript">
+        new TypeIt(
+            "#kaidaotumi", {
+                strings:["每一个人，伤心了就哭泣",
+                "饿了就要吃，相差大不过天地",
+                "一个一个偶像，都不外如此",
+                "沉迷过的偶像，一个个消失",
+                "最后对着自己，也不大看得起"],
+                speed:50,
+                waitUntilVisible:true,
+            }
+        ).go();
+    </script>
 </body>
 </html>
